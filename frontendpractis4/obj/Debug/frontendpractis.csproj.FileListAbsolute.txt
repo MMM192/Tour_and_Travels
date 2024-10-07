@@ -1,0 +1,295 @@
+E:\c# vs code 2010\frontendpractis\bin\frontendpractis.dll.config
+E:\c# vs code 2010\frontendpractis\bin\frontendpractis.dll
+E:\c# vs code 2010\frontendpractis\bin\frontendpractis.pdb
+E:\c# vs code 2010\frontendpractis\bin\roslyn\csc.exe
+E:\c# vs code 2010\frontendpractis\bin\roslyn\csc.exe.config
+E:\c# vs code 2010\frontendpractis\bin\roslyn\csc.rsp
+E:\c# vs code 2010\frontendpractis\bin\roslyn\csi.exe
+E:\c# vs code 2010\frontendpractis\bin\roslyn\csi.exe.config
+E:\c# vs code 2010\frontendpractis\bin\roslyn\csi.rsp
+E:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.Managed.Core.targets
+E:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.AppContext.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Collections.Immutable.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Console.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Globalization.Calendars.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.IO.Compression.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.IO.FileSystem.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Net.Http.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Net.Sockets.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Reflection.Metadata.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.ValueTuple.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Xml.XmlDocument.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Xml.XPath.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\c# vs code 2010\frontendpractis\bin\roslyn\vbc.exe
+E:\c# vs code 2010\frontendpractis\bin\roslyn\vbc.exe.config
+E:\c# vs code 2010\frontendpractis\bin\roslyn\vbc.rsp
+E:\c# vs code 2010\frontendpractis\bin\roslyn\VBCSCompiler.exe
+E:\c# vs code 2010\frontendpractis\bin\roslyn\VBCSCompiler.exe.config
+E:\c# vs code 2010\frontendpractis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\c# vs code 2010\frontendpractis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\c# vs code 2010\frontendpractis\obj\Debug\frontendpractis.csproj.AssemblyReference.cache
+E:\c# vs code 2010\frontendpractis\obj\Debug\frontendpractis.csproj.CoreCompileInputs.cache
+E:\c# vs code 2010\frontendpractis\obj\Debug\frontendpractis.csproj.CopyComplete
+E:\c# vs code 2010\frontendpractis\obj\Debug\frontendpractis.dll
+E:\c# vs code 2010\frontendpractis\obj\Debug\frontendpractis.pdb
+D:\c# vs code 2010\frontendpractis\bin\frontendpractis.dll.config
+D:\c# vs code 2010\frontendpractis\bin\frontendpractis.dll
+D:\c# vs code 2010\frontendpractis\bin\frontendpractis.pdb
+D:\c# vs code 2010\frontendpractis\bin\roslyn\csc.exe
+D:\c# vs code 2010\frontendpractis\bin\roslyn\csc.exe.config
+D:\c# vs code 2010\frontendpractis\bin\roslyn\csc.rsp
+D:\c# vs code 2010\frontendpractis\bin\roslyn\csi.exe
+D:\c# vs code 2010\frontendpractis\bin\roslyn\csi.exe.config
+D:\c# vs code 2010\frontendpractis\bin\roslyn\csi.rsp
+D:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.Managed.Core.targets
+D:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\c# vs code 2010\frontendpractis\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.AppContext.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Collections.Immutable.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Console.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Globalization.Calendars.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.IO.Compression.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.IO.FileSystem.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Net.Http.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Net.Sockets.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Reflection.Metadata.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.ValueTuple.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Xml.XmlDocument.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Xml.XPath.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\c# vs code 2010\frontendpractis\bin\roslyn\vbc.exe
+D:\c# vs code 2010\frontendpractis\bin\roslyn\vbc.exe.config
+D:\c# vs code 2010\frontendpractis\bin\roslyn\vbc.rsp
+D:\c# vs code 2010\frontendpractis\bin\roslyn\VBCSCompiler.exe
+D:\c# vs code 2010\frontendpractis\bin\roslyn\VBCSCompiler.exe.config
+D:\c# vs code 2010\frontendpractis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\c# vs code 2010\frontendpractis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\c# vs code 2010\frontendpractis\obj\Debug\frontendpractis.csproj.AssemblyReference.cache
+D:\c# vs code 2010\frontendpractis\obj\Debug\frontendpractis.csproj.CoreCompileInputs.cache
+D:\c# vs code 2010\frontendpractis\obj\Debug\frontendpractis.csproj.CopyComplete
+D:\c# vs code 2010\frontendpractis\obj\Debug\frontendpractis.dll
+D:\c# vs code 2010\frontendpractis\obj\Debug\frontendpractis.pdb
+E:\frontendpractis\bin\frontendpractis.dll.config
+E:\frontendpractis\bin\frontendpractis.dll
+E:\frontendpractis\bin\frontendpractis.pdb
+E:\frontendpractis\bin\roslyn\csc.exe
+E:\frontendpractis\bin\roslyn\csc.exe.config
+E:\frontendpractis\bin\roslyn\csc.rsp
+E:\frontendpractis\bin\roslyn\csi.exe
+E:\frontendpractis\bin\roslyn\csi.exe.config
+E:\frontendpractis\bin\roslyn\csi.rsp
+E:\frontendpractis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\frontendpractis\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\frontendpractis\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\frontendpractis\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\frontendpractis\bin\roslyn\Microsoft.Managed.Core.targets
+E:\frontendpractis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\frontendpractis\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\frontendpractis\bin\roslyn\System.AppContext.dll
+E:\frontendpractis\bin\roslyn\System.Collections.Immutable.dll
+E:\frontendpractis\bin\roslyn\System.Console.dll
+E:\frontendpractis\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\frontendpractis\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\frontendpractis\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\frontendpractis\bin\roslyn\System.Globalization.Calendars.dll
+E:\frontendpractis\bin\roslyn\System.IO.Compression.dll
+E:\frontendpractis\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\frontendpractis\bin\roslyn\System.IO.FileSystem.dll
+E:\frontendpractis\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\frontendpractis\bin\roslyn\System.Net.Http.dll
+E:\frontendpractis\bin\roslyn\System.Net.Sockets.dll
+E:\frontendpractis\bin\roslyn\System.Reflection.Metadata.dll
+E:\frontendpractis\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\frontendpractis\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\frontendpractis\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\frontendpractis\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\frontendpractis\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\frontendpractis\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\frontendpractis\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\frontendpractis\bin\roslyn\System.ValueTuple.dll
+E:\frontendpractis\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\frontendpractis\bin\roslyn\System.Xml.XmlDocument.dll
+E:\frontendpractis\bin\roslyn\System.Xml.XPath.dll
+E:\frontendpractis\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\frontendpractis\bin\roslyn\vbc.exe
+E:\frontendpractis\bin\roslyn\vbc.exe.config
+E:\frontendpractis\bin\roslyn\vbc.rsp
+E:\frontendpractis\bin\roslyn\VBCSCompiler.exe
+E:\frontendpractis\bin\roslyn\VBCSCompiler.exe.config
+E:\frontendpractis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\frontendpractis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\frontendpractis\obj\Debug\frontendpractis.csproj.AssemblyReference.cache
+E:\frontendpractis\obj\Debug\frontendpractis.csproj.CoreCompileInputs.cache
+E:\frontendpractis\obj\Debug\frontendpractis.csproj.CopyComplete
+E:\frontendpractis\obj\Debug\frontendpractis.dll
+E:\frontendpractis\obj\Debug\frontendpractis.pdb
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\frontendpractis.dll.config
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\frontendpractis.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\frontendpractis.pdb
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\csc.exe
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\csc.exe.config
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\csc.rsp
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\csi.exe
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\csi.exe.config
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\csi.rsp
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.AppContext.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Console.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.IO.Compression.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Net.Http.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Net.Sockets.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.ValueTuple.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Xml.XPath.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\vbc.exe
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\vbc.exe.config
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\vbc.rsp
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\VBCSCompiler.exe
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SagarPatil\Desktop\frontendpractis\obj\Debug\frontendpractis.csproj.AssemblyReference.cache
+C:\Users\SagarPatil\Desktop\frontendpractis\obj\Debug\frontendpractis.csproj.CoreCompileInputs.cache
+C:\Users\SagarPatil\Desktop\frontendpractis\obj\Debug\frontendpractis.csproj.CopyComplete
+C:\Users\SagarPatil\Desktop\frontendpractis\obj\Debug\frontendpractis.dll
+C:\Users\SagarPatil\Desktop\frontendpractis\obj\Debug\frontendpractis.pdb
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\frontendpractis.dll.config
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\frontendpractis.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\frontendpractis.pdb
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\csc.exe
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\csc.exe.config
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\csc.rsp
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\csi.exe
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\csi.exe.config
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\csi.rsp
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.AppContext.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Console.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.IO.Compression.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Net.Http.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.ValueTuple.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\vbc.exe
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\vbc.exe.config
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\vbc.rsp
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\VBCSCompiler.exe
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\obj\Debug\frontendpractis.csproj.AssemblyReference.cache
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\obj\Debug\frontendpractis.csproj.CoreCompileInputs.cache
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\obj\Debug\frontendpractis.csproj.CopyComplete
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\obj\Debug\frontendpractis.dll
+C:\Users\Malasidha\Desktop\navbar\sagar\frontendpractis\obj\Debug\frontendpractis.pdb

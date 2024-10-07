@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="frontendpractis.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+       <style>
+
+        #av{
+            color:rgb(33, 37, 41);
+        }
+        #margintable{
+
+            margin-top:-0.1ch;
+            margin-bottom:-0.1ch;
+            margin-left:-0.1ch;
+        }
+              .buybutton1 {
+    background-color: white;
+    border-radius: 3ch;
+               background-color:rgb(33, 37, 41);
+               color:white;
+               border-color:white;
+               border-style:none;
+
+}
+
+    .buybutton1:hover {
+        background-color: rgb(255, 142, 3);
+     transition-duration: 0.5s;
+    }
+    #nav756{
+        background-color:rgb(33, 37, 41);
+    }
+
+          </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+             <div id="nav756">
+             <table class="w-100" id="margintable">
+                    <tr>
+                        <td >
+                            <asp:Menu ID="Menu1" runat="server" BackColor="#212529" Orientation="Horizontal" Width="102%">
+                                <Items>
+                                    <asp:MenuItem Text="Tours" Value="Tours"></asp:MenuItem>
+                                </Items>
+                                <StaticMenuItemStyle VerticalPadding="10px" HorizontalPadding="30px" Font-Bold="False" Font-Italic="False" Font-Size="25pt" ForeColor="White" Font-Names="Bahnschrift SemiBold" Font-Underline="False" />
+                            </asp:Menu>
+                        </td>
+                        <td>
+                            <asp:Menu ID="Menu2" runat="server" BackColor="#212529" ForeColor="White" Orientation="Horizontal" width="101%">
+                                <Items>
+                   
+    <asp:MenuItem  Text="Home" Value="Home" NavigateUrl="~/Admin/Admin_Default.aspx"></asp:MenuItem>
+                   
+                    <asp:MenuItem  Text="Beaches" Value="About Us" NavigateUrl="~/Admin/Beaches.aspx"></asp:MenuItem>
+
+                    <asp:MenuItem Text="Hill Station" Value="About Us" NavigateUrl="~/Admin/Hill_Station.aspx"></asp:MenuItem>
+
+                    <asp:MenuItem Text="Heritage" Value="About Us" NavigateUrl="~/Admin/Heritage_Sites.aspx"></asp:MenuItem>
+
+                    <asp:MenuItem Text="Desert" Value="About Us"  NavigateUrl="~/Admin/Deserts.aspx"  ></asp:MenuItem>
+
+                    <asp:MenuItem Text="National Park" Value="About Us" NavigateUrl="~/Admin/National_Park.aspx"></asp:MenuItem>
+
+                    <asp:MenuItem Text="Temple" Value="About Us" NavigateUrl="~/Admin/Temples.aspx"></asp:MenuItem>
+
+
+
+
+                   
+                                    <asp:MenuItem Text="Reports" Value="Reports" NavigateUrl="~/Admin/A_Report.aspx"></asp:MenuItem>
+
+
+
+
+                   
+                                </Items>
+                                <StaticMenuItemStyle VerticalPadding="23px" HorizontalPadding="30px" Font-Bold="False" Font-Italic="False" ForeColor="White" Font-Size="12pt" ItemSpacing="10px" />
+                                <StaticMenuStyle HorizontalPadding="119px" />
+                                <StaticSelectedStyle ItemSpacing="90px" />
+                            </asp:Menu>
+                        </td>
+                        
+                        <td>
+                           <asp:Button ID="Button2" runat="server" Text="Log Out" CssClass="buybutton1" Height="35px" Width="112px" OnClick="Button2_Click"/>
+                        </td>
+                    </tr>
+                </table>
+       </div> 
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
