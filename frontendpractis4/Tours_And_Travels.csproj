@@ -1,0 +1,952 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2AF7A6C2-310F-4AAD-B42A-04A2678E09AA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>frontendpractis</RootNamespace>
+    <AssemblyName>frontendpractis</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44302</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Admin_Default.aspx" />
+    <Content Include="Admin\A_Report.aspx" />
+    <Content Include="Admin\Beaches.aspx" />
+    <Content Include="Admin\Deserts.aspx" />
+    <Content Include="Admin\Heritage_Sites.aspx" />
+    <Content Include="Admin\Hill_Station.aspx" />
+    <Content Include="Admin\National_Park.aspx" />
+    <Content Include="Admin\Temples.aspx" />
+    <Content Include="components\Feedback.aspx" />
+    <Content Include="components\Register.aspx" />
+    <Content Include="components\Register1.aspx" />
+    <Content Include="Beaches\Beaches.aspx" />
+    <Content Include="Beaches\Beaches_Detail.aspx" />
+    <Content Include="components\ShowDetails.aspx" />
+    <Content Include="Dashbord.aspx" />
+    <Content Include="Default_BeforeLogin.aspx" />
+    <Content Include="Deserts\Deserts.aspx" />
+    <Content Include="Deserts\Deserts_Detail.aspx" />
+    <Content Include="Heritage_Sites\Heritage_Sites.aspx" />
+    <Content Include="Heritage_Sites\Heritage_Sites_Detail.aspx" />
+    <Content Include="Hill_Station\Hill_Station.aspx" />
+    <Content Include="Hill_Station\Hill_Station_Detail.aspx" />
+    <Content Include="images\5875087.png" />
+    <Content Include="images\background.jpg" />
+    <Content Include="images\login 2.png" />
+    <Content Include="images\login.png" />
+    <Content Include="images\login2.png" />
+    <Content Include="images\login3.png" />
+    <Content Include="images\R.png" />
+    <Content Include="images\Ragistration1.png" />
+    <Content Include="images\tourist2.jpg" />
+    <Content Include="images\toursit.jpg" />
+    <Content Include="images\toursit1.jpg" />
+    <Content Include="images\WhatsApp Image 2023-04-19 at 22.10.26.jpg" />
+    <Content Include="images\Z_Timg.png" />
+    <Content Include="Login\Admin_Login.aspx" />
+    <Content Include="Login\Admin_Login1.aspx" />
+    <Content Include="Login\LoginPage.aspx" />
+    <Content Include="Login\LoginPage1.aspx" />
+    <Content Include="National_Park\National_Park.aspx" />
+    <Content Include="National_Park\National_Park_Detail.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="css\Payment.css" />
+    <Content Include="css\StyleSheet1.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\1about.jpg" />
+    <Content Include="images\1Allblogs.jpg" />
+    <Content Include="images\1carousel.jpg" />
+    <Content Include="images\1discover.jpg" />
+    <Content Include="images\1insta.jpg" />
+    <Content Include="images\1OurTeam.jpg" />
+    <Content Include="images\1Packages.jpg" />
+    <Content Include="images\1Services.jpg" />
+    <Content Include="images\2about.jpg" />
+    <Content Include="images\2carousel.jpg" />
+    <Content Include="images\2discover.jpg" />
+    <Content Include="images\2insta.jpg" />
+    <Content Include="images\2OurTeam.jpg" />
+    <Content Include="images\2Packages.jpg" />
+    <Content Include="images\2Services.jpg" />
+    <Content Include="images\3carousel.jpg" />
+    <Content Include="images\3insta.jpg" />
+    <Content Include="images\3OurTeam.jpg" />
+    <Content Include="images\3Packages.jpg" />
+    <Content Include="images\3Services.jpg" />
+    <Content Include="images\4carousel.jpg" />
+    <Content Include="images\4insta.jpg" />
+    <Content Include="images\4OurTeam.jpg" />
+    <Content Include="images\4Services.jpg" />
+    <Content Include="images\5carousel.jpg" />
+    <Content Include="images\5insta.jpg" />
+    <Content Include="images\5Services.jpg" />
+    <Content Include="images\6carousel.jpg" />
+    <Content Include="images\6insta.jpg" />
+    <Content Include="images\6Services.jpg" />
+    <Content Include="images\8carousel.jpg" />
+    <Content Include="images\9carousel.jpg" />
+    <Content Include="images\agra.jpg" />
+    <Content Include="images\Ajanta.jpg" />
+    <Content Include="images\AMARNATH.jpg" />
+    <Content Include="images\AMARNATH1.jpg" />
+    <Content Include="images\AMARNATH2.jpg" />
+    <Content Include="images\AMARNATH3.jpg" />
+    <Content Include="images\AMARNATH4.jpg" />
+    <Content Include="images\Andaman.jpg" />
+    <Content Include="images\BADRINATH.jpg" />
+    <Content Include="images\Badrinath_Temple.jpg" />
+    <Content Include="images\Bandipur.jpg" />
+    <Content Include="images\Bangalore-Palace.jpg" />
+    <Content Include="images\behlashram.jpg" />
+    <Content Include="images\behlashram1.jpg" />
+    <Content Include="images\behlashram2.jpg" />
+    <Content Include="images\behlashram3.jpg" />
+    <Content Include="images\book-img.jpg" />
+    <Content Include="images\Cellular_Jail,_Port_Blair.jpg" />
+    <Content Include="images\Cellular_Jail,_Port_Blair1.jpg" />
+    <Content Include="images\charminar.jpg" />
+    <Content Include="images\Chittorgarh.jpg" />
+    <Content Include="images\contact-img.jpg" />
+    <Content Include="images\COORG.jpg" />
+    <Content Include="images\Corbett.jpg" />
+    <Content Include="images\corbetthomestay.jpg" />
+    <Content Include="images\corbetthomestay1.jpg" />
+    <Content Include="images\corbetthomestay2.jpg" />
+    <Content Include="images\corbetthomestay3.jpg" />
+    <Content Include="images\DARJEELING.jpg" />
+    <Content Include="images\delhi.jpg" />
+    <Content Include="images\delhi1.jpg" />
+    <Content Include="images\delhi2.jpg" />
+    <Content Include="images\delhi3.jpg" />
+    <Content Include="images\delhi4.jpg" />
+    <Content Include="images\delhi5.jpg" />
+    <Content Include="images\delhi6.jpg" />
+    <Content Include="images\delhi7.jpg" />
+    <Content Include="images\dodham.png" />
+    <Content Include="images\dodham1.jpg" />
+    <Content Include="images\dodham2.jpg" />
+    <Content Include="images\dodham3.jpg" />
+    <Content Include="images\Gateway of india.jpg" />
+    <Content Include="images\GIR-NATIONAL-PARK.jpg" />
+    <Content Include="images\gir.jpg" />
+    <Content Include="images\gir1.jpg" />
+    <Content Include="images\gir2.jpg" />
+    <Content Include="images\gir3.jpg" />
+    <Content Include="images\gir4.jpg" />
+    <Content Include="images\GOA.jpg" />
+    <Content Include="images\goa1.jpg" />
+    <Content Include="images\goa2.jpg" />
+    <Content Include="images\goa4.jpg" />
+    <Content Include="images\goa5.jpg" />
+    <Content Include="images\goa6.jpg" />
+    <Content Include="images\goa7.jpg" />
+    <Content Include="images\goa9.jpg" />
+    <Content Include="images\Goldentemple.jpg" />
+    <Content Include="images\govenrmentguesthouse.jpg" />
+    <Content Include="images\govenrmentguesthouse1.jpg" />
+    <Content Include="images\govenrmentguesthouse2.jpg" />
+    <Content Include="images\govenrmentguesthouse2jpg.jpg" />
+    <Content Include="images\govenrmentguesthouse3.jpg" />
+    <Content Include="images\Hampi-1.jpg" />
+    <Content Include="images\hampi.jpg" />
+    <Content Include="images\HARIDWAR.jpg" />
+    <Content Include="images\Havelock.jpg" />
+    <Content Include="images\Havelock1.jpg" />
+    <Content Include="images\Havelock2.jpg" />
+    <Content Include="images\header-bg-2.png" />
+    <Content Include="images\hotel guru international.jpg" />
+    <Content Include="images\hotel-guru-international1.jpg" />
+    <Content Include="images\hotel-guru-international2.jpg" />
+    <Content Include="images\hotel-guru-international3.jpg" />
+    <Content Include="images\hotelAlmatiInn.jpg" />
+    <Content Include="images\hotelAlmatiInn1.jpg" />
+    <Content Include="images\hotelAlmatiInn2.jpg" />
+    <Content Include="images\hotelAlmatiInn3.jpg" />
+    <Content Include="images\hoteldaksh.jpg" />
+    <Content Include="images\hoteldaksh1.jpg" />
+    <Content Include="images\hoteldaksh2.jpg" />
+    <Content Include="images\hoteldaksh3.jpg" />
+    <Content Include="images\hotelfortunepark.jpg" />
+    <Content Include="images\hotelfortunepark1.jpg" />
+    <Content Include="images\hotelfortunepark2.jpg" />
+    <Content Include="images\hotelfortunepark3.jpg" />
+    <Content Include="images\hotelgrandchanakya.jpg" />
+    <Content Include="images\hotelgrandchanakya1.jpg" />
+    <Content Include="images\hotelgrandchanakya2.jpg" />
+    <Content Include="images\hotelgrandchanakya3.jpg" />
+    <Content Include="images\hotelgreenapple.jpg" />
+    <Content Include="images\hotelgreenapple1.jpg" />
+    <Content Include="images\hotelgreenapple2.jpg" />
+    <Content Include="images\hotelgreenapple3.jpg" />
+    <Content Include="images\hotelgulmargresort.jpg" />
+    <Content Include="images\hotelgulmargresort1.jpg" />
+    <Content Include="images\hotelgulmargresort2.jpg" />
+    <Content Include="images\hotelgulmargresort3.jpg" />
+    <Content Include="images\hotelhimalyancomfort.jpg" />
+    <Content Include="images\hotelhimalyancomfort1.jpg" />
+    <Content Include="images\hotelhimalyancomfort2.jpg" />
+    <Content Include="images\hotelhimalyancomfort3.jpg" />
+    <Content Include="images\hoteljaimaa.jpg" />
+    <Content Include="images\hoteljaimaa1.jpg" />
+    <Content Include="images\hoteljaimaa2.jpg" />
+    <Content Include="images\hoteljaimaa3.jpg" />
+    <Content Include="images\hoteljessulkot.jpg" />
+    <Content Include="images\hoteljessulkot1.jpg" />
+    <Content Include="images\hoteljessulkot2.jpg" />
+    <Content Include="images\hoteljessulkot3.jpg" />
+    <Content Include="images\hotelmahey-retreat.jpg" />
+    <Content Include="images\hotelmahey-retreat1.jpg" />
+    <Content Include="images\hotelmahey-retreat2.jpg" />
+    <Content Include="images\hotelmahey-retreat3.jpg" />
+    <Content Include="images\hotelmandakini.jpg" />
+    <Content Include="images\hotelmandakini1.jpg" />
+    <Content Include="images\hotelmandakini2.jpg" />
+    <Content Include="images\hotelmandakini3.jpg" />
+    <Content Include="images\hotelmannat.jpg" />
+    <Content Include="images\hotelmannat1.jpg" />
+    <Content Include="images\hotelmannat2.jpg" />
+    <Content Include="images\hotelmannat3.jpg" />
+    <Content Include="images\hotelmewarivilla.jpg" />
+    <Content Include="images\hotelmewarivilla1.jpg" />
+    <Content Include="images\hotelmewarivilla2.jpg" />
+    <Content Include="images\hotelmewarivilla3.jpg" />
+    <Content Include="images\hotelocean.jpg" />
+    <Content Include="images\hotelocean1.jpg" />
+    <Content Include="images\hotelocean2.jpg" />
+    <Content Include="images\hotelocean3.jpg" />
+    <Content Include="images\hotelregency.jpg" />
+    <Content Include="images\hotelregency1.jpg" />
+    <Content Include="images\hotelregency2.jpg" />
+    <Content Include="images\hotelregency3.jpg" />
+    <Content Include="images\hotelseaview.jpg" />
+    <Content Include="images\hotelseaview1.jpg" />
+    <Content Include="images\hotelseaview2.jpg" />
+    <Content Include="images\hotelseaview3.jpg" />
+    <Content Include="images\hotelSiris18.jpg" />
+    <Content Include="images\hotelSiris181.jpg" />
+    <Content Include="images\hotelSiris182.jpg" />
+    <Content Include="images\hotelSiris183.jpg" />
+    <Content Include="images\hotelsnowcrest.jpg" />
+    <Content Include="images\hotelsnowcrest1.jpg" />
+    <Content Include="images\hotelsnowcrest2.jpg" />
+    <Content Include="images\hotelsnowcrest3.jpg" />
+    <Content Include="images\hotelsonmargglacier.jpg" />
+    <Content Include="images\hotelsonmargglacier1.jpg" />
+    <Content Include="images\hotelsonmargglacier2.jpg" />
+    <Content Include="images\hotelsonmargglacier3.jpg" />
+    <Content Include="images\hotelsreechandana.jpg" />
+    <Content Include="images\hotelsreechandana1.jpg" />
+    <Content Include="images\hotelsreechandana2.jpg" />
+    <Content Include="images\hotelsreechandana3.jpg" />
+    <Content Include="images\hoteltharvad.jpg" />
+    <Content Include="images\hoteltharvad1.jpg" />
+    <Content Include="images\hoteltharvad2.jpg" />
+    <Content Include="images\hoteltharvad3.jpg" />
+    <Content Include="images\hoteltranvancore.jpg" />
+    <Content Include="images\hoteltranvancore1.jpg" />
+    <Content Include="images\hoteltranvancore2.jpg" />
+    <Content Include="images\hoteltranvancore3.jpg" />
+    <Content Include="images\hotelwoodpark.jpg" />
+    <Content Include="images\hotelwoodpark1.jpg" />
+    <Content Include="images\hotelwoodpark2.jpg" />
+    <Content Include="images\hotelwoodpark3.jpg" />
+    <Content Include="images\houseboat-anarkali %281%29.jpg" />
+    <Content Include="images\houseboat-anarkali %282%29.jpg" />
+    <Content Include="images\houseboat-anarkali %283%29.jpg" />
+    <Content Include="images\houseboat-anarkali.jpg" />
+    <Content Include="images\hydrebad.jpg" />
+    <Content Include="images\hydrebad1.jpg" />
+    <Content Include="images\hydrebad2.jpg" />
+    <Content Include="images\hydrebad3.jpg" />
+    <Content Include="images\hydrebad4.jpg" />
+    <Content Include="images\hydrebad5.jpg" />
+    <Content Include="images\hydrebad6.jpg" />
+    <Content Include="images\hydrebad7.jpg" />
+    <Content Include="images\india-delhi-jama-masjid.jpg" />
+    <Content Include="images\india-delhi-lotus-temple.jpg" />
+    <Content Include="images\Jagannath .jpg" />
+    <Content Include="images\jaislmer.jpg" />
+    <Content Include="images\jaislmer1.jpg" />
+    <Content Include="images\jaislmer2.jpg" />
+    <Content Include="images\jaislmer3.jpg" />
+    <Content Include="images\jaislmer4.jpg" />
+    <Content Include="images\jimcorbett.jpg" />
+    <Content Include="images\jimcorbett1.jpg" />
+    <Content Include="images\jimcorbett2.jpg" />
+    <Content Include="images\jimcorbett3.jpg" />
+    <Content Include="images\jimcorbett4.jpg" />
+    <Content Include="images\jodhpur.jpg" />
+    <Content Include="images\jodhpur1.jpg" />
+    <Content Include="images\jodhpur2.jpg" />
+    <Content Include="images\jodhpur3.jpg" />
+    <Content Include="images\jodhpur4.jpg" />
+    <Content Include="images\joye-grand-hotel.jpg" />
+    <Content Include="images\joye-grand-hotel1.jpg" />
+    <Content Include="images\joye-grand-hotel2.jpg" />
+    <Content Include="images\joye-grand-hotel3.jpg" />
+    <Content Include="images\k1.jpg" />
+    <Content Include="images\k2.jpg" />
+    <Content Include="images\k3.jpg" />
+    <Content Include="images\k3.png" />
+    <Content Include="images\k4.jpg" />
+    <Content Include="images\k5.jpg" />
+    <Content Include="images\k6.jpg" />
+    <Content Include="images\k7.jpg" />
+    <Content Include="images\k8.jpg" />
+    <Content Include="images\k9.jpg" />
+    <Content Include="images\KANYAKUMARI.jpg" />
+    <Content Include="images\Kashmir.jpg" />
+    <Content Include="images\Kashmir1.jpg" />
+    <Content Include="images\Kashmir2.jpg" />
+    <Content Include="images\Kashmir3.jpg" />
+    <Content Include="images\Kashmir4.jpg" />
+    <Content Include="images\Kashmir5.jpg" />
+    <Content Include="images\Kashmir6.jpg" />
+    <Content Include="images\Kashmir7.jpg" />
+    <Content Include="images\KAZIRANGA-NATIONAL-PARK.jpg" />
+    <Content Include="images\kaziranga.jpg" />
+    <Content Include="images\kaziranga1.jpg" />
+    <Content Include="images\kaziranga2.jpg" />
+    <Content Include="images\kaziranga3.jpg" />
+    <Content Include="images\kaziranga4.jpg" />
+    <Content Include="images\KEDARNATH.jpg" />
+    <Content Include="images\kerela.jpg" />
+    <Content Include="images\kerela1.jpg" />
+    <Content Include="images\kerela2.jpg" />
+    <Content Include="images\kerela3.jpg" />
+    <Content Include="images\kerela4.jpg" />
+    <Content Include="images\kerela5.jpg" />
+    <Content Include="images\kerela6.jpg" />
+    <Content Include="images\kerela7.jpg" />
+    <Content Include="images\kerela8.jpg" />
+    <Content Include="images\kolkata.jpg" />
+    <Content Include="images\kuchmanhaveli.jpg" />
+    <Content Include="images\kuchmanhaveli1.jpg" />
+    <Content Include="images\kuchmanhaveli2.jpg" />
+    <Content Include="images\kuchmanhaveli3.jpg" />
+    <Content Include="images\Kutch.jpg" />
+    <Content Include="images\kutch1.jpg" />
+    <Content Include="images\kutch2.jpg" />
+    <Content Include="images\kutch3.jpg" />
+    <Content Include="images\kutch4.jpg" />
+    <Content Include="images\kutchtent.jpg" />
+    <Content Include="images\kutchtent1.jpg" />
+    <Content Include="images\kutchtent2.jpg" />
+    <Content Include="images\kutchtent3.jpg" />
+    <Content Include="images\ladakh-index.jpg" />
+    <Content Include="images\LADAKH.jpg" />
+    <Content Include="images\Leh-Ladakh.jpg" />
+    <Content Include="images\Leh-Ladakh1.jpg" />
+    <Content Include="images\Leh-Ladakh3.jpg" />
+    <Content Include="images\Leh-Ladakh4.jpg" />
+    <Content Include="images\Leh-Ladakh5.jpg" />
+    <Content Include="images\Leh-Ladakh6.jpg" />
+    <Content Include="images\Leh-Ladakh7.jpg" />
+    <Content Include="images\manali.jpg" />
+    <Content Include="images\manali1.jpg" />
+    <Content Include="images\manali2.jpg" />
+    <Content Include="images\manali3.jpg" />
+    <Content Include="images\MUNNAR.jpg" />
+    <Content Include="images\MUSSOORIE.jpg" />
+    <Content Include="images\nagoa-grande-hotel1.jpg" />
+    <Content Include="images\nagoa-grande-hotel2.jpg" />
+    <Content Include="images\nagoa-grande-hotel3.jpg" />
+    <Content Include="images\Nagoa_Grande_-_73_JAB2GH.jpg" />
+    <Content Include="images\p-6.jpg" />
+    <Content Include="images\pay.png" />
+    <Content Include="images\Periyar.jpg" />
+    <Content Include="images\pic1.jpg" />
+    <Content Include="images\portblair.jpg" />
+    <Content Include="images\portblair1.jpg" />
+    <Content Include="images\portblair2.jpg" />
+    <Content Include="images\rajasthan.jpg" />
+    <Content Include="images\rajasthan1.jpg" />
+    <Content Include="images\rajasthan2.jpg" />
+    <Content Include="images\rajasthan3.jpg" />
+    <Content Include="images\rajasthan4.jpg" />
+    <Content Include="images\rajasthan5.jpg" />
+    <Content Include="images\rajasthan6.jpg" />
+    <Content Include="images\rajasthan7.jpg" />
+    <Content Include="images\RANTHAMBORE.jpg" />
+    <Content Include="images\Red Fort.jpg" />
+    <Content Include="images\RISHIKESH.jpg" />
+    <Content Include="images\Sanchi Stupa.jpg" />
+    <Content Include="images\shimla.jpg" />
+    <Content Include="images\shimla1.jpg" />
+    <Content Include="images\shimla2.jpg" />
+    <Content Include="images\shimla3.jpg" />
+    <Content Include="images\Somnath_Temple.jpg" />
+    <Content Include="images\SRINAGAR.jpg" />
+    <Content Include="images\Sundarban_Tiger.jpg" />
+    <Content Include="images\Taj Mahal.jpg" />
+    <Content Include="images\tescoresort.jpg" />
+    <Content Include="images\tescoresort1.jpg" />
+    <Content Include="images\tescoresort2.jpg" />
+    <Content Include="images\tescoresort3.jpg" />
+    <Content Include="images\VAISHNO-DEVI.jpg" />
+    <Content Include="images\VAISHNO-DEVI1.jpg" />
+    <Content Include="images\VAISHNO-DEVI2.jpg" />
+    <Content Include="images\VAISHNO-DEVI3.jpg" />
+    <Content Include="images\VAISHNO-DEVI4.jpg" />
+    <Content Include="Payment\AfterPayment.aspx" />
+    <Content Include="Payment\PayMent.aspx" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="StarImg\1stars.jpg" />
+    <Content Include="StarImg\2star.jpg" />
+    <Content Include="StarImg\3star.jpg" />
+    <Content Include="StarImg\4star.jpg" />
+    <Content Include="StarImg\5star.jpg" />
+    <Content Include="Temples\Temples.aspx" />
+    <Content Include="Temples\Temples_Detail.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_Default.aspx.cs">
+      <DependentUpon>Admin_Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_Default.aspx.designer.cs">
+      <DependentUpon>Admin_Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\A_Report.aspx.cs">
+      <DependentUpon>A_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\A_Report.aspx.designer.cs">
+      <DependentUpon>A_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Beaches.aspx.cs">
+      <DependentUpon>Beaches.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Beaches.aspx.designer.cs">
+      <DependentUpon>Beaches.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Deserts.aspx.cs">
+      <DependentUpon>Deserts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Deserts.aspx.designer.cs">
+      <DependentUpon>Deserts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Heritage_Sites.aspx.cs">
+      <DependentUpon>Heritage_Sites.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Heritage_Sites.aspx.designer.cs">
+      <DependentUpon>Heritage_Sites.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Hill_Station.aspx.cs">
+      <DependentUpon>Hill_Station.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Hill_Station.aspx.designer.cs">
+      <DependentUpon>Hill_Station.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\National_Park.aspx.cs">
+      <DependentUpon>National_Park.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\National_Park.aspx.designer.cs">
+      <DependentUpon>National_Park.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Temples.aspx.cs">
+      <DependentUpon>Temples.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Temples.aspx.designer.cs">
+      <DependentUpon>Temples.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="components\Feedback.aspx.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="components\Feedback.aspx.designer.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="components\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="components\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="components\Register1.aspx.cs">
+      <DependentUpon>Register1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="components\Register1.aspx.designer.cs">
+      <DependentUpon>Register1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="components\ShowDetails.aspx.cs">
+      <DependentUpon>ShowDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="components\ShowDetails.aspx.designer.cs">
+      <DependentUpon>ShowDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dashbord.aspx.cs">
+      <DependentUpon>Dashbord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashbord.aspx.designer.cs">
+      <DependentUpon>Dashbord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Beaches\Beaches.aspx.cs">
+      <DependentUpon>Beaches.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beaches\Beaches.aspx.designer.cs">
+      <DependentUpon>Beaches.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Beaches\Beaches_Detail.aspx.cs">
+      <DependentUpon>Beaches_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beaches\Beaches_Detail.aspx.designer.cs">
+      <DependentUpon>Beaches_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Default_BeforeLogin.aspx.cs">
+      <DependentUpon>Default_BeforeLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default_BeforeLogin.aspx.designer.cs">
+      <DependentUpon>Default_BeforeLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deserts\Deserts.aspx.cs">
+      <DependentUpon>Deserts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deserts\Deserts.aspx.designer.cs">
+      <DependentUpon>Deserts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deserts\Deserts_Detail.aspx.cs">
+      <DependentUpon>Deserts_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deserts\Deserts_Detail.aspx.designer.cs">
+      <DependentUpon>Deserts_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Heritage_Sites\Heritage_Sites.aspx.cs">
+      <DependentUpon>Heritage_Sites.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Heritage_Sites\Heritage_Sites.aspx.designer.cs">
+      <DependentUpon>Heritage_Sites.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Heritage_Sites\Heritage_Sites_Detail.aspx.cs">
+      <DependentUpon>Heritage_Sites_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Heritage_Sites\Heritage_Sites_Detail.aspx.designer.cs">
+      <DependentUpon>Heritage_Sites_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hill_Station\Hill_Station.aspx.cs">
+      <DependentUpon>Hill_Station.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hill_Station\Hill_Station.aspx.designer.cs">
+      <DependentUpon>Hill_Station.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hill_Station\Hill_Station_Detail.aspx.cs">
+      <DependentUpon>Hill_Station_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hill_Station\Hill_Station_Detail.aspx.designer.cs">
+      <DependentUpon>Hill_Station_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Admin_Login.aspx.cs">
+      <DependentUpon>Admin_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\Admin_Login.aspx.designer.cs">
+      <DependentUpon>Admin_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Admin_Login1.aspx.cs">
+      <DependentUpon>Admin_Login1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\Admin_Login1.aspx.designer.cs">
+      <DependentUpon>Admin_Login1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\LoginPage1.aspx.cs">
+      <DependentUpon>LoginPage1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\LoginPage1.aspx.designer.cs">
+      <DependentUpon>LoginPage1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="National_Park\National_Park.aspx.cs">
+      <DependentUpon>National_Park.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="National_Park\National_Park.aspx.designer.cs">
+      <DependentUpon>National_Park.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="National_Park\National_Park_Detail.aspx.cs">
+      <DependentUpon>National_Park_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="National_Park\National_Park_Detail.aspx.designer.cs">
+      <DependentUpon>National_Park_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\AfterPayment.aspx.cs">
+      <DependentUpon>AfterPayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment\AfterPayment.aspx.designer.cs">
+      <DependentUpon>AfterPayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\PayMent.aspx.cs">
+      <DependentUpon>PayMent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment\PayMent.aspx.designer.cs">
+      <DependentUpon>PayMent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reports\Booked_packages1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Booked_packages1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\day.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>day.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\mm.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mm.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\PackageInfo2.cs">
+      <DependentUpon>PackageInfo2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reports\CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\PackageInfo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PackageInfo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\Total.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Total.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\UserInvoice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\yyyy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>yyyy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Temples\Temples.aspx.cs">
+      <DependentUpon>Temples.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Temples\Temples.aspx.designer.cs">
+      <DependentUpon>Temples.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Temples\Temples_Detail.aspx.cs">
+      <DependentUpon>Temples_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Temples\Temples_Detail.aspx.designer.cs">
+      <DependentUpon>Temples_Detail.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="images\.gitattributes" />
+    <Content Include="images\desktop.ini" />
+    <Content Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="Admin\Admin.Master" />
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="MasterPage.Master" />
+    <Content Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Content>
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\Booked_packages1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Booked_packages1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\day.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>day.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\mm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>mm.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\PackageInfo2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PackageInfo2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\PackageInfo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PackageInfo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\Total.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Total.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\UserInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>UserInvoice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\yyyy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>yyyy.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49700</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44302/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

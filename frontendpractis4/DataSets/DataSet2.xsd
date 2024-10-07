@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet2" msprop:Generator_DataSetName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Booked_Packages" msprop:Generator_RowEvHandlerName="Booked_PackagesRowChangeEventHandler" msprop:Generator_RowDeletedName="Booked_PackagesRowDeleted" msprop:Generator_RowDeletingName="Booked_PackagesRowDeleting" msprop:Generator_RowEvArgName="Booked_PackagesRowChangeEvent" msprop:Generator_TablePropName="Booked_Packages" msprop:Generator_RowChangedName="Booked_PackagesRowChanged" msprop:Generator_RowChangingName="Booked_PackagesRowChanging" msprop:Generator_TableClassName="Booked_PackagesDataTable" msprop:Generator_RowClassName="Booked_PackagesRow" msprop:Generator_TableVarName="tableBooked_Packages" msprop:Generator_UserTableName="Booked_Packages">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="User_x0020_Id" msprop:Generator_ColumnPropNameInRow="User_Id" msprop:Generator_ColumnPropNameInTable="User_IdColumn" msprop:Generator_ColumnVarNameInTable="columnUser_Id" msprop:Generator_UserColumnName="User Id" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Mail" msprop:Generator_ColumnPropNameInRow="Mail" msprop:Generator_ColumnPropNameInTable="MailColumn" msprop:Generator_ColumnVarNameInTable="columnMail" msprop:Generator_UserColumnName="Mail" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_UserColumnName="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="date_x0020_to_x0020_visit" msprop:Generator_ColumnPropNameInRow="date_to_visit" msprop:Generator_ColumnPropNameInTable="date_to_visitColumn" msprop:Generator_ColumnVarNameInTable="columndate_to_visit" msprop:Generator_UserColumnName="date to visit" type="xs:string" minOccurs="0" />
+              <xs:element name="Card_x0020_Number" msprop:Generator_ColumnPropNameInRow="Card_Number" msprop:Generator_ColumnPropNameInTable="Card_NumberColumn" msprop:Generator_ColumnVarNameInTable="columnCard_Number" msprop:Generator_UserColumnName="Card Number" type="xs:string" minOccurs="0" />
+              <xs:element name="Package_x0020_Name" msprop:Generator_ColumnPropNameInRow="Package_Name" msprop:Generator_ColumnPropNameInTable="Package_NameColumn" msprop:Generator_ColumnVarNameInTable="columnPackage_Name" msprop:Generator_UserColumnName="Package Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Price" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_UserColumnName="Price" type="xs:string" minOccurs="0" />
+              <xs:element name="Package_x0020_Info" msprop:Generator_ColumnPropNameInRow="Package_Info" msprop:Generator_ColumnPropNameInTable="Package_InfoColumn" msprop:Generator_ColumnVarNameInTable="columnPackage_Info" msprop:Generator_UserColumnName="Package Info" type="xs:string" minOccurs="0" />
+              <xs:element name="Number_x0020_of_x0020_Pepole" msprop:Generator_ColumnPropNameInRow="Number_of_Pepole" msprop:Generator_ColumnPropNameInTable="Number_of_PepoleColumn" msprop:Generator_ColumnVarNameInTable="columnNumber_of_Pepole" msprop:Generator_UserColumnName="Number of Pepole" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

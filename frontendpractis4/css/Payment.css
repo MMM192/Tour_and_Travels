@@ -1,0 +1,70 @@
+﻿body {
+}
+
+#payBGcolor {
+    background-color: #f2f2f2;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.payINP1 {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.payINP11 {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: white;
+}
+
+
+.payINP2 {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.payINP3 {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#span1{
+    width:13ch;
+}
+
+.payICON{
+    height:3ch;
+    width:3ch;
+ 
+}
+
+.Pay89 {
+    background-color:black;
+    color:white;
+    border-radius:1ch;
+
+}
+
+.nonvisible{
+    visibility:none;
+    
+
+}
+
+.total{
+    border:none;
+    color:black;
+    font-family:Arial;
+}
